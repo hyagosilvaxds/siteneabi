@@ -401,7 +401,7 @@ header a {
 .local {
   font-family: "Oswald", sans-serif;
   font-size: 30px;
-  color: #222222;
+  color: #535353;
   letter-spacing: 5px;
 
   padding-top: 10px;
@@ -670,6 +670,10 @@ header a {
 @media screen and (max-width: 1366px){
   #mao{
     width: 350px;
+  }
+  
+  .neabip p {
+    margin-left: 10px;
   }
   
   .imgneab{
