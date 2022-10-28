@@ -543,8 +543,8 @@ header a {
 }
 
 .podpa {
-  width: 80vw;
-  height: 70vh;
+  width: 90%;
+  height: 70%;
   display: flex;
   flex: 1;
   align-items: center;
@@ -555,16 +555,20 @@ header a {
 }
 
 .live{
-  width: 50vw;
-  height: 30vw;
-  
+
+  width: 745px; 
+  height: 420px;
 
   border: 3px solid #ff9700;
 }
 
+
+
 #twitch-chat-embed{
-  height: 90%;
-  width: 30%;
+  height: 420px;
+  width: 300px;
+
+  margin-top: -5%;
 
   margin-left: 50px;
 
@@ -572,16 +576,18 @@ header a {
 }
 
 .redesociais{
-  margin-left: 240px;
+  max-width: 30%;
+  position: relative;
+  left: 19%;
 }
 
 .redesociais img{
-  width: 3%;
+  width: 7%;
   margin: 20px;
 }
 
 .podpa img {
-  max-width: 100%;
+  width: 200px;
   box-shadow: 10px 10px 3px 0px rgba(255, 151, 0, 1);
   border-radius: 10px;
   margin-bottom: 20px;
@@ -589,8 +595,8 @@ header a {
 }
 
 .livve{
-  margin-left: 250px;
-  margin-top: -50px;
+  max-width: 70%;
+
 }
 
 /* fim podcast */
@@ -661,6 +667,14 @@ header a {
     margin-top: 130px;
   }
 
+  .livve{
+    left: 13%;
+  }
+
+  .redesociais{
+    left: 13%;
+  }
+
   .tittle {
     margin-top: 130px;
   }
@@ -716,6 +730,15 @@ header a {
     width: 350px;
   }
   
+  .livve{
+
+    left: 8%;
+  }
+
+  .redesociais{
+    left: 8%;
+  }
+
   .neabip p {
     margin-left: 30px;
   }
@@ -918,10 +941,13 @@ header a {
     font-size: 1.5em;
   }
   
+  .liveandt{
+    margin-left: -10%;
+  }
+
   .live{
-    width: 400px;
-    height: 230px;
-    
+    width: 110%;
+    height: 90%;
 
     /* box-shadow: 7px 7px 3px 0px rgb(255, 15, 15); */
   }
@@ -931,19 +957,19 @@ header a {
     width: 80%;
   
     margin-top: 80px;
-    margin-left: 30%;
+    margin-left: 25%;
 
     /*  border-radius: 10px; */
 
   }
 
   .redesociais{
-  margin-top: 0px;
-  margin-left: 10px;
+  margin-top: -55%;
+  margin-left: -20px;
   display: flex;
   flex-direction: column;
 
-  width: 20%;
+  width: 15%;
   }
 
   .redesociais img{
@@ -951,8 +977,8 @@ header a {
   }
 
   .livve{
-    margin-top: -350px;
-    margin-left: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
     width: 100%;
   }
   /* fim podcast */
