@@ -953,7 +953,7 @@ header a {
   }
   
   #twitch-chat-embed{
-    height: 380px;
+    height: 100%;
     width: 80%;
   
     margin-top: 80px;
