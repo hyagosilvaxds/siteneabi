@@ -866,7 +866,7 @@ header a {
   }
 
   #scroll {
-    bottom: 0px;
+    bottom: 60px;
   }
 
   .imgneab {
@@ -1010,6 +1010,10 @@ header a {
   }
   #mao{
     margin-top: 40px;
+  }
+
+  #scroll {
+    bottom: 0px;
   }
 
   .tittle h1 {
