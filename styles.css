@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@600&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 * {
   font-family: "Montserrat", sans-serif;
@@ -174,9 +175,9 @@ header a {
 }
 
 .backlinepodcast{
-  height:770px;
+  height:620px;
   width: 6px;
-  margin-bottom: -770px;
+  margin-bottom: -620px;
   margin-left: 50px;
 
   border-radius: 10px;
@@ -660,6 +661,38 @@ header a {
   font-weight: bold;
 }
 
+footer{
+  background: #0c0c0c;
+  padding: 20px;
+  margin-bottom: -1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+footer .container{
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 70% 40%;
+  opacity: 0.7;
+}
+
+.grid-8{
+  margin-top: 1%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.redes img{
+  width: 6%;
+  margin-left: 20px;
+}
 
 
 @media screen and (max-width: 1600px) {
@@ -795,6 +828,12 @@ header a {
     margin-top: 100px;
     margin-left: 175px;
 
+  }
+
+
+  .redes img{
+    width: 18%;
+    margin-top: 4%;
   }
 
   .backlinenea{
@@ -1008,6 +1047,11 @@ header a {
     margin-top: 50px;
 
   }
+
+  footer{
+    margin-top: 30px;
+  }
+
   #mao{
     margin-top: 40px;
   }
